@@ -3,7 +3,8 @@
 .aboutme {
   display: flex;
   justify-content: space-between;
-  height: 800px;
+  min-height: 800px;
+  height: max-content;
 
   .aboutme-image {
     position: relative;
