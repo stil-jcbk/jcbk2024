@@ -1,0 +1,20 @@
+@import "../../colors.scss";
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .headline {
+    font-size: 48px;
+    color: $colorMain;
+  }
+
+  .projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+  }
+}
