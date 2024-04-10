@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-end;
   position: sticky;
+  z-index: 999;
   top: 0;
   height: 80px;
   background-color: $colorBg;
@@ -38,6 +39,20 @@
           filter: brightness(10);
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    justify-content: space-between;
+
+    .logo {
+      position: unset;
+      left: unset;
+      transform: unset;
+
+      margin-left: 20px;
     }
   }
 }
