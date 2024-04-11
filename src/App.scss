@@ -1,4 +1,8 @@
 .website-content {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
