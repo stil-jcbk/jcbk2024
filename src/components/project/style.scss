@@ -59,3 +59,16 @@
     color: $colorText60;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .project {
+    .image {
+      width: 80vw;
+      height: 80vw;
+    }
+
+    .project-tools {
+      width: 90vw;
+    }
+  }
+}
