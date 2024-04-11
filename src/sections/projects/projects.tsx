@@ -6,9 +6,8 @@ export default function ProjectsSection() {
     <section className="projects">
       <h2 className="headline">PROJECTS</h2>
       <div className="projects-wrapper">
-      <Project name='PROJECT NAME' img='https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg' tools={["React, Typescript, NodeJS, Express, Firebase"]} />
-      <Project name='PROJECT NAME' img='https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg' tools={["React, Typescript, NodeJS, Express, Firebase"]} />
-      <Project name='PROJECT NAME' img='https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg' tools={["React, Typescript, NodeJS, Express, Firebase"]} />
+      <Project name='Freelance website' img='/assets/freelance.png' tools={["HTML, Javascript, CSS"]} />
+      <Project name='SaveCash' img='/assets/savecash.png' tools={["React, Typescript, Firebase"]} />
       </div>
     </section>
   )
