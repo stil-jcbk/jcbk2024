@@ -131,7 +131,13 @@
 }
 
 @media only screen and (max-width: 470px) {
-  img {
-    width: 90%;
+  .hero {
+    .hero-image {
+      .image-container {
+        img {
+          width: 90%;
+        }
+      }
+    }
   }
 }
