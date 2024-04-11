@@ -2,7 +2,7 @@ import "./style.scss";
 
 export default function ContactSection() {
   return(
-    <section className="contact">
+    <section id="contact" className="contact">
       <h2 className="headline">CONTACT</h2>
       <ul className="contact-list">
         <a href="mailto:jcbkdev@gmail.com" target="_blank" rel="noreferrer">

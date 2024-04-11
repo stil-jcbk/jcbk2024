@@ -1,6 +1,14 @@
 import "./style.scss"
 
 export default function HeroSection(){
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+
+    if(!contactSection) return;
+
+    contactSection.scrollIntoView({behavior: "smooth", block:"center", inline: "nearest"})
+  }
+
   return(
     <section className="hero">
         <div className="hero-content">
@@ -9,7 +17,7 @@ export default function HeroSection(){
             <p className="title">Frontend Developer</p>
             <p className="slogan">Where Creativity Meets Code.</p>
           </div>
-          <button type="button">Hire me</button>
+          <button onClick={scrollToContact} type="button">Hire me</button>
         </div>
 
         <div className="hero-image">
