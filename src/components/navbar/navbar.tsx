@@ -5,7 +5,7 @@ export default function Navbar(){
     <nav className="navbar">
       <span className="logo">JCBK</span>
       <div className="redirections">
-        <a href="https://github.com/stil-jcbk" target="_blank" rel="noreferrer">
+        <a href="https://github.com/jcbkdev" target="_blank" rel="noreferrer">
           <img className="icon" src="/assets/github.svg" alt="github" />
         </a>
         <a href="https://linkedin.com/in/jcbkdev" target="_blank" rel="noreferrer">
